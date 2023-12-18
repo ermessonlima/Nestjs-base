@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es2015"
+    ],
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "src/*": [
+        "*"
+      ]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+  },
+  "include": [
+    "./src/**/*spec.ts",
+    "./src/**/*.ts",
+    "./src/**/*"
+  ],
+  
+}
